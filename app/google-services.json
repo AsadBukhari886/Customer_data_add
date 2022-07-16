@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "482786133807",
+    "project_id": "splashscreen2-876c4",
+    "storage_bucket": "splashscreen2-876c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482786133807:android:a822210a75e42b6f7503da",
+        "android_client_info": {
+          "package_name": "hadi.bukhari.splashscreen2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482786133807-joi1ls4h41p73iskbtpimp517r7s9bim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNZ_ita6XDvEgPMJB4aMsfX9aupPtDLmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482786133807-joi1ls4h41p73iskbtpimp517r7s9bim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

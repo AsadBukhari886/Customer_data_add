@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginBottom="20dp"-->
+    <!--        app:srcCompat="@drawable/add_customer2" />-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/edtCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Enter Customer Name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/edtCustomerPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Enter Customer Phone No."
+        android:inputType="phone"
+        android:maxLength="11"
+        />
+
+    <TextView
+        android:id="@+id/txtCustomerPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="Choose Customer Picture"
+        />
+
+    <Button
+        android:id="@+id/btnAddNewCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Add New Customer"
+        />
+
+
+
+</LinearLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout-->
+    <!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    tools:context=".MainActivity">-->
+
+    <!--    &lt;!&ndash;EditText for adding employee name&ndash;&gt;-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/idEdtEmployeeName"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:hint="Enter Employee Name"-->
+    <!--        android:importantForAutofill="no"-->
+    <!--        android:inputType="textPersonName" />-->
+
+    <!--    &lt;!&ndash;EditText for adding employee phone&ndash;&gt;-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/idEdtEmployeePhoneNumber"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/idEdtEmployeeName"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:hint="Enter employee phone number"-->
+    <!--        android:importantForAutofill="no"-->
+    <!--        android:inputType="phone" />-->
+
+    <!--    &lt;!&ndash;EditText for adding employee address&ndash;&gt;-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/idEdtEmployeeAddress"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/idEdtEmployeePhoneNumber"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:layout_marginBottom="10dp"-->
+    <!--        android:hint="Enter employee address"-->
+    <!--        android:inputType="textPostalAddress" />-->
+
+    <!--    &lt;!&ndash;Button for adding data to Firebase&ndash;&gt;-->
+    <!--    <Button-->
+    <!--        android:id="@+id/idBtnSendData"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/idEdtEmployeeAddress"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:text="Add employee details"-->
+    <!--        android:textAllCaps="false" />-->
+
+    <!--    &lt;!&ndash;    //button extra&ndash;&gt;-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:onClick="openActivity"-->
+    <!--        android:text="Open search box!"-->
+    <!--        android:textSize="32dp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    &lt;!&ndash;    <EditText&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:id="@+id/searchNumber"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_below="@+id/button"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_alignParentStart="true"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_alignParentEnd="true"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_alignParentBottom="true"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginStart="1dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginTop="111dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginEnd="201dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginBottom="160dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:ems="10"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:hint="enter phone number"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:inputType="phone" />&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;    <Button&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:id="@+id/searchButton"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_below="@+id/button"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_alignParentStart="true"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_alignParentEnd="true"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_alignParentBottom="true"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginStart="263dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginTop="115dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginEnd="54dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:layout_marginBottom="154dp"&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:text="search" />&ndash;&gt;-->
+    <!--    &lt;!&ndash;        android:onClick="sendMessage"&ndash;&gt;-->
+
+    <!--    &lt;!&ndash;        android:textColor="@color/colorPrimary"&ndash;&gt;-->
+
+
+    <!--</RelativeLayout>-->
